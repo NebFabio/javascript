@@ -17,7 +17,7 @@ body {
 
 header {
     color: white;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.521);
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.705);
     text-align: center;
 }
 
@@ -40,6 +40,12 @@ div#msg {
     font-size: 1.5em;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
 } 
+
+div#msg2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+}
 
 footer {
     text-align: center;
