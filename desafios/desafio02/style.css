@@ -11,7 +11,7 @@ body, html {
 }
 
 body {
-    background-color: rgb(80, 79, 79);
+    background-color: rgb(21, 64, 71);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -49,18 +49,19 @@ div#msg2 {
 
 footer {
     text-align: center;
+    color: white;
 }
 
 a {
     text-decoration: none;
     font-weight: bolder;
-    color: black;
+    color: aqua;
 }
 
 a:hover {
     text-decoration: underline;
-    background-color: rgba(0, 0, 0, 0.103);
+    background-color: rgba(41, 153, 147, 0.103);
     padding: 5px;
     border-radius: 5px;
-    color: rgba(0, 0, 0, 0.637);
+    color: rgb(222, 248, 248);
 }
