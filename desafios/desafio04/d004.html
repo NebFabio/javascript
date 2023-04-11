@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hora do dia</title>
+    <title>Tabuada</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="carregar()">
+<body>
     <header>
-        <h1>Hora do dia</h1>
+        <h1>Tabuada</h1>
     </header>
     <section>
-        <div id="msg">
-            Aqui vai aparecer a mensagem...
+        <div>
+            <p>
+                <label for="inumero">Número:</label>
+                <input type="number" name="inum" id="inum">
+                <button onclick="calcular()">Gerar Tabuada</button>
+            </p>
         </div>
-        <div id="msg2">
-            
-        </div>
-        <div id="foto">
-            <img id="imagem" src="imagens/fotomanha.png" alt="foto">
+        <div>
+            <select name="tabuada" id="seltab" size="10">
+                <option value="" id="option">Digite um número acima</option>
+            </select>
         </div>
     </section>
     <footer id="rd">
