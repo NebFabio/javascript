@@ -35,16 +35,16 @@ div {
 }
 
 #option {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 10px;
+    padding-bottom: 0px;
 }
 
 #seltab {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 10px;
-    font-size: 1.2em;
 }
 
 footer {
