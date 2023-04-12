@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+body, html {
+    width: 98vw;
+    
+}
+
+body {
+    background-color: rgb(75, 111, 126);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: white;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.705);
+    text-align: center;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.61);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.356);
+}
+
+#ivalores {
+    width: 150px;
+}
+
+footer {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.103);
+    padding: 5px;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.637);
+}
